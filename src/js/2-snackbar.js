@@ -10,7 +10,7 @@ const inputPromis = document.querySelectorAll('[name="state"]');
 const fulfieldIzi = (delay) => {
     iziToast.show({
         message: `Fulfilled promise in ${delay}ms`,
-        iconUrl: '../img/okay.svg',
+        iconUrl: './img/okay.svg',
         color: '#59a10d',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
@@ -23,7 +23,7 @@ const fulfieldIzi = (delay) => {
 const rejectedIzi = (delay) => {
     iziToast.show({
         message: `Rejected promise in ${delay}ms`,
-        iconUrl: '../img/closeicon.svg',
+        iconUrl: './img/closeicon.svg',
         color: '#ef4040',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
