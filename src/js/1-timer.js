@@ -4,7 +4,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-import close from "../img/closeicon.svg"
+import Error from "../img/closeicon.svg"
 
 function convertMs(ms) {
   const second = 1000;
@@ -42,7 +42,7 @@ const showErrorMes = () => {
     timeout: 3000,
     pauseOnHover: true,
     position: 'topRight',
-    iconUrl: close,
+    iconUrl: Error,
   })
 }
 
