@@ -2,6 +2,8 @@
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import close from "../img/closeicon.svg"
+import okayIcon from "../img/okay.svg"
 
 const form = document.querySelector('.form');
 const input = document.querySelector('input[type="number"]')
@@ -10,7 +12,7 @@ const inputPromis = document.querySelectorAll('[name="state"]');
 const fulfieldIzi = (delay) => {
     iziToast.show({
         message: `Fulfilled promise in ${delay}ms`,
-        iconUrl: '/img/okay.svg',
+        iconUrl: okayIcon,
         color: '#59a10d',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
@@ -23,7 +25,7 @@ const fulfieldIzi = (delay) => {
 const rejectedIzi = (delay) => {
     iziToast.show({
         message: `Rejected promise in ${delay}ms`,
-        iconUrl: '/img/closeicon.svg',
+        iconUrl: close,
         color: '#ef4040',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
