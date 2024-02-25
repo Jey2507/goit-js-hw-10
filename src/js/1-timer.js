@@ -41,7 +41,7 @@ const showErrorMes = () => {
     timeout: 3000,
     pauseOnHover: true,
     position: 'topRight',
-    iconUrl: './img/closeicon.svg',
+    iconUrl: '/img/closeicon.svg',
   })
 }
 
